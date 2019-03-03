@@ -59,6 +59,9 @@
                             <constraint firstItem="Zor-gl-g2f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="xBp-AZ-vbi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="scrollView" destination="6Xi-yj-vzp" id="CwM-Q5-22J"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

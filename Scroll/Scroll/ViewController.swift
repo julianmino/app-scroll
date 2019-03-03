@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+     @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
      
@@ -19,6 +21,14 @@ class ViewController: UIViewController {
             let image = UIImage(named: "icon\(x).png")
             let imageView = UIImageView(image: image)
             images.append(imageView)
+            
+            var newX: CGFloat = 0.0
+            
+            newX = view.frame.midX + view.frame.width * CGFloat(x)
+            
+            scrollView.addSubview(imageView)
+            
+            imageView.frame = CGRect(x: 0.0, y: view.frame.height / 2, width: 150, height: 150)
         }
     }
 
