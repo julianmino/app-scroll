@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "734811E09F80BD1BB6FFA2613CF29B7550D2999E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "645020609B76D89355D221FB28532DC987467A74" : 9223372036854775807,
+    "734811E09F80BD1BB6FFA2613CF29B7550D2999E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EB70BF1B-4E18-41B8-AAAA-6D546C2426B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "645020609B76D89355D221FB28532DC987467A74" : "",
+    "734811E09F80BD1BB6FFA2613CF29B7550D2999E" : "app-scroll\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Scroll",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Scroll\/Scroll.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:julianmino\/provisional-repo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "645020609B76D89355D221FB28532DC987467A74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:julianmino\/app-scroll.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "734811E09F80BD1BB6FFA2613CF29B7550D2999E"
+    }
+  ]
+}
