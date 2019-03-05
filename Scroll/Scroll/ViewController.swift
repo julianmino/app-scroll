@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     
     var contentWidth: CGFloat = 0.0
     
+    var newX: CGFloat = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,16 +26,14 @@ class ViewController: UIViewController {
             let imageView = UIImageView(image: image)
             images.append(imageView)
             
-            var newX: CGFloat = 0.0
-            
-            contentWidth += newX
-            
             newX = view.frame.midX + view.frame.size.width * CGFloat(x)
             
             scrollView.addSubview(imageView)
             
             imageView.frame = CGRect(x: newX - 75, y: (view.frame.size.height / 2) - 75, width: 150, height: 150)
         }
+        
+        contentWidth = newX + (view.frame.size.width) / 2
         
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
     }
